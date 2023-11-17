@@ -557,8 +557,8 @@ setup()
 
 # Create the Gradio interface
 with gr.Blocks() as demo:
-    github_banner_path = 'https://raw.githubusercontent.com/ymcui/Chinese-LLaMA-Alpaca-2/main/pics/banner.png'
-    gr.HTML(f'<p align="center"><a href="https://github.com/ymcui/Chinese-LLaMA-Alpaca-2"><img src={github_banner_path} width="700"/></a></p>')
+    github_banner_path = 'https://raw.githubusercontent.com/ucfxj/PowerGPT/main/pics/banner2.png'
+    gr.HTML(f'<p align="center"><a href="https://github.com/ucfxj/PowerGPT"><img src={github_banner_path} width="700"/></a></p>')
     chatbot = gr.Chatbot()
     with gr.Row():
         with gr.Column(scale=4):
